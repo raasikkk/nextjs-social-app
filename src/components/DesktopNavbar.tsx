@@ -48,4 +48,5 @@ async function DesktopNavbar() {
     </div>
   );
 }
+
 export default DesktopNavbar;
