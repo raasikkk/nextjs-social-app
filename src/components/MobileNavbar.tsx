@@ -96,7 +96,11 @@ function MobileNavbar() {
               </>
             ) : (
               <SignInButton mode="modal">
-                <Button variant="default" className="w-full">
+                <Button
+                  variant="default"
+                  onClick={() => setShowMobileMenu(false)}
+                  className="w-full"
+                >
                   Sign In
                 </Button>
               </SignInButton>
